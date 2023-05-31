@@ -13,6 +13,26 @@
   height: 100px;
   width: 100%;
   padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.create-room {
+  padding: 14px;
+  border: 1px solid lightblue;
+}
+
+.create-room a {
+  text-decoration: none;
+  font-size: 10px;
+  color: deepskyblue;
 }
 
 .rooms {
@@ -20,6 +40,17 @@
   width: 100%;
   background-color: #2f3e51;
   padding: 0px 20px;
+  overflow: scroll;
+}
+
+.room {
+  width: 100%;
+  margin: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .chat {
